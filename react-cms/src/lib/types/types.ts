@@ -1,0 +1,1 @@
+export type Trip = { place: string, startDate: string, endDate: string, savingsNeeded: number, reason: string, notes: string };
