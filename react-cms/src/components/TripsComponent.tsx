@@ -10,7 +10,7 @@ const TripsComponent = () => {
     const fetchData = () => {
         sanityClient
             .fetch(query, {})
-            .then((trips) => {
+            .then((trips: []) => {
                 console.log('Trips:', trips)
                 setTrips(trips);
             })
