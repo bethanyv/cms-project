@@ -1,2 +1,2 @@
 # cms-project
-My Headless CMC Project 
+My Headless CMS Project 
