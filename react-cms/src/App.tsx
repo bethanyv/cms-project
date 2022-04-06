@@ -17,9 +17,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Congratulations!
+          Welcome to Bethany's place!
         </p>
         <TripsComponent />
+        <div className="target">{`I LOVE Cameron <3`}</div>
       </header>
     </div>
   );
