@@ -1,7 +1,3 @@
-import sanityClient from '../lib/sanity';
-import { useState, useEffect } from "react";
-import { Trip } from '../lib/types/types';
-
 interface TripProps {
     place: string;
     startDate: string;

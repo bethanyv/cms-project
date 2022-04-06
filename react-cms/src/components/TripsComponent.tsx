@@ -6,11 +6,13 @@ import { allTripsQuery } from "../lib/utils/queries";
 
 const TripsComponent = () => {
     const [trips, setTrips] = useState<Trip[]>();
+    /* uncomment below when wanting to use actual API */
     // const query = allTripsQuery;
 
     const fetchData = async () => {
         setTrips(mockTripsResponse);
         setTimeout(() => setTrips(mockUpdatedTripResponse), 5000);
+        /* uncomment below when wanting to use actual API */
         // setTrips(await sanityClient.fetch(query, {}));
         // console.log('Trips:', trips);
     }
