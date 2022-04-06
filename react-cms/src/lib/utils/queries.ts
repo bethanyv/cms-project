@@ -1,0 +1,1 @@
+export const allTripsQuery = '*[_type == "trip"] {place, startDate, endDate, savingsNeeded, reason, notes}';
